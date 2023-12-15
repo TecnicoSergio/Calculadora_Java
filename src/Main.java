@@ -15,6 +15,19 @@ public class Main {
         System.out.println(calculadoraSr.getDiv());
         System.out.println(calculadoraSr.getMultiplica());
 
+        System.out.println("================================");
+
+        System.out.println(calculadoraSr.n1 + calculadoraSr.n2);
+        System.out.println(calculadoraSr.n1 - calculadoraSr.n2);
+        System.out.println(calculadoraSr.n1 / calculadoraSr.n2);
+        System.out.println(calculadoraSr.n1 * calculadoraSr.n2);
+        System.out.println(calculadoraSr.soma + calculadoraSr.subtrair);
+        System.out.println(calculadoraSr.div / calculadoraSr.multiplica);
+        System.out.println(calculadoraSr.multiplica * calculadoraSr.soma);
+        System.out.println(calculadoraSr.subtrair - calculadoraSr.soma);
+
+
+
 
 
 

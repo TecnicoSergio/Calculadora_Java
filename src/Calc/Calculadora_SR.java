@@ -42,11 +42,8 @@ public class Calculadora_SR {
         this.multiplica = multiplica;
     }
 
-    public double soma(){
-        double soma = this.n1 + this.n2;
-        return (soma);
-    }
 
+//=================================================
     @Override
     public String toString() {
         return "Calculadora_SR{" +
@@ -58,6 +55,7 @@ public class Calculadora_SR {
                 ", multiplica=" + multiplica +
                 '}';
     }
+    //============================]]
 
     public Calculadora_SR(double n1, double n2, double soma, double subtrair, double div, double multiplica) {
         this.n1 = n1;
@@ -66,6 +64,13 @@ public class Calculadora_SR {
         this.subtrair = subtrair;
         this.div = div;
         this.multiplica = multiplica;
+    }
+    //======================================
+
+    public double soma(){
+        double soma = this.n1 + this.n2;
+
+        return (soma);
     }
 
     public double subtrair(){
@@ -80,6 +85,8 @@ public class Calculadora_SR {
         double multiplicar = this.n1 * this.n2;
         return (multiplicar);
     }
+
+    //=============================================
 
 
     public double getN1() {
